@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, white 50%, #7851A9 50%);
+}
+.raj-nav-bar{
+    width: 70%;
+}
+.raj-nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+.raj-nav-btn {
+    padding: 0.4rem 1.7rem;
+    transition: 0.4s;
+}
+.raj-nav-btn:hover{
+    background-color: rgb(222, 222, 222);
+    /* color: white; */
+    border-radius: 3px;
+    transform: scale(1.05);
+}
+.raj-main-content{
+    background-color: white;
+    height: 70%;
+    width: 80%;
+    margin-top: 3rem;
+    border-radius: 3px;
+}
